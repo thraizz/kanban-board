@@ -69,6 +69,7 @@
             v-model="doneElements"
             style="background-color: rgba(255,255,255, 0.2); min-height: 60vh;"
             group="elements"
+            class="pa-2"
             @start="drag=true"
             @end="drag=false"
           >
