@@ -15,5 +15,16 @@ module.exports = {
     'vue',
   ],
   rules: {
+    'no-unresolved': 'off',
+    'no-unused-components': 'off',
   },
+  overrides: [
+    {
+      files: '**/*.vue',
+      rules: {
+        'vue/no-unused-components': 'off',
+        'import/no-unresolved': 'off',
+      },
+    },
+  ],
 };
