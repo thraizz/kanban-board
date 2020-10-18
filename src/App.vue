@@ -158,7 +158,6 @@ export default {
       this.editValue.key = key;
       this.editValue.section = section;
       this.showEditDialog = true;
-      // console.log(event, i);
     },
     setId() {
       this.$store.commit('SET_DATABASE', this.documentId);
